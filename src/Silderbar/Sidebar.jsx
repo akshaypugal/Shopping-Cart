@@ -8,7 +8,7 @@ const Sidebar = () => {
   return (
      <>
        <section className='sidebar'>
-          <div>
+          <div className="logo-container">
             <h1>🛒</h1>
           </div>
           <Category/>
@@ -20,4 +20,3 @@ const Sidebar = () => {
 }
 
 export default Sidebar
-j
